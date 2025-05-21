@@ -1194,7 +1194,7 @@ const newsData = [
     title: `步美的母亲（歩美の母親，Ayumi no Hahaoya）`,
     desc: `吉田步美的母亲，在《名侦探柯南》本篇从未露面。`,
     link: 'https://www.conanpedia.com/%E6%AD%A5%E7%BE%8E%E7%9A%84%E6%AF%8D%E4%BA%B2',
-    img: ''
+    // img: ''
   },
   {
     id: 10134,
@@ -1329,7 +1329,7 @@ const newsData = [
     title: `远山樱（遠山桜，Tōyama Sakura）`,
     desc: `原大阪府警枪械对策部队的精锐，远山银司郎的妻子，远山和叶的母亲。`,
     link: 'https://www.conanpedia.com/%E8%BF%9C%E5%B1%B1%E6%A8%B1',
-    img: ''
+    // img: ''
   },
   {
     id: 10149,
