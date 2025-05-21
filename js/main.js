@@ -99,7 +99,7 @@ if (currentSort === 'id_desc') {
 const html = `
   <div class="news-item news-item-clickable" onclick="handleNewsClick('${link}')">
     <div class="news-image">
-      <img src="${item.img || '/MPD/MPD-img/data/default.jpg'}" alt="MPD">
+      <img src="${item.img || '/MPD-img/data/default.jpg'}" alt="MPD">
     </div>
     <div class="news-content">
       <div class="news-meta">${categoryLabel(item.category)} ｜ ${item.date}</div>
