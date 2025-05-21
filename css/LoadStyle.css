@@ -23,7 +23,7 @@
 
     body {
       background: radial-gradient(circle at center, #0a0f1a 0%, #05080f 100%);
-      background-image: url('/MPD/MPD-img/a.jpg');
+      background-image: url('/MPD-img/a.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
