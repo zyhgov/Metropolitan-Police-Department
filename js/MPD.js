@@ -1409,7 +1409,7 @@ const newsData = [
     date: '2025-05-22',
     title: `名侦探柯南：独眼的残像 2025剧场版`,
     desc: `《名侦探柯南：独眼的残像》（日语：名探偵コナン 隻眼の残像フラッシュバック，英语：Detective Conan: One-eyed Flashback），是2025年4月18日上映的日本动画电影，改编自日本漫画家青山刚昌漫画系列《名侦探柯南》的第28部剧场版，由重原克也执导，樱井武晴编剧。该电影是名侦探柯南剧场版系列第三部在日本突破100亿日圆票房的剧场版，同时该系列也成为日本影史首个连续三部作品百亿的系列电影。`,
-    link: '/MPD/conan-movie/2025/Detective-Conan-One-eyed-Flashback.html',
-    img: '/MPD/conan-movie/img/2025homelogo.png'
+    link: '/conan-movie/2025/Detective-Conan-One-eyed-Flashback.html',
+    img: '/conan-movie/img/2025homelogo.png'
   }
 ];
