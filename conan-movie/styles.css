@@ -15,7 +15,7 @@ body {
   min-height: 100vh;
 
   /* 背景图设置 */
-  background-image: url('/MPD/MPD-img/a.jpg');
+  background-image: url('/MPD-img/a.jpg');
   background-size: cover;               /* 自动缩放以覆盖全屏，可能裁剪边缘 */
   background-position: center center;   /* 始终居中显示图片 */
   background-repeat: no-repeat;         /* 不重复 */
