@@ -1,5 +1,5 @@
 let currentCategory = 'all';
-let currentSort = 'id_desc';
+let currentSort = 'desc'; // 默认按日期降序
 let currentIndex = 0;
 const perPage = 6;
 
@@ -68,18 +68,18 @@ function renderNews(reset = false) {
   }
 
 // 根据不同排序方式排序
-if (currentSort === 'id_desc') {
-  filtered.sort((a, b) => (a.id || 0) - (b.id || 0));
-} else if (currentSort === 'id_asc') {
-  filtered.sort((a, b) => (b.id || 0) - (a.id || 0));
-} else {
-  // 按日期排序
-  filtered.sort((a, b) =>
-    currentSort === 'asc'
-      ? new Date(a.date) - new Date(b.date)
-      : new Date(b.date) - new Date(a.date)
-  );
-}
+filtered.sort((a, b) => {
+  if (currentSort === 'id_desc') {
+    return (a.id || 0) - (b.id || 0); // 按 ID 升序
+  } else if (currentSort === 'id_asc') {
+    return (b.id || 0) - (a.id || 0); // 按 ID 降序
+  } else if (currentSort === 'asc') {
+    return new Date(a.date) - new Date(b.date); // 按日期升序
+  } else {
+    return new Date(b.date) - new Date(a.date); // 按日期降序，默认情况
+  }
+});
+
 
   const nextItems = filtered.slice(currentIndex, currentIndex + perPage);
 
