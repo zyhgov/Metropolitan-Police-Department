@@ -1405,11 +1405,335 @@ const newsData = [
   },
   {
     id: 10157,
-    category: 'Wiki',
+    category: 'OVA',
+    date: '1997-04-19',
+    title: '名侦探柯南：计时引爆摩天楼',
+    desc: '《名侦探柯南：计时引爆摩天楼》（日语：名探偵コナン 時計じかけの摩天楼，英语：Detective Conan: The Time-Bombed Skyscraper），是日本漫画家青山刚昌漫画系列《名侦探柯南》的第1部剧场版，片长95分钟。1997年4月19日在日本上映，在日本有11亿日圆的票房收益。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E5%BC%95%E7%88%86%E6%91%A9%E5%A4%A9%E6%A8%93',
+    img: '/conan-movie/img/Conan1.jpg'
+  },
+  {
+    id: 10158,
+    category: 'OVA',
+    date: '1998-04-18',
+    title: '名侦探柯南：第十四个目标',
+    desc: '《名侦探柯南：第十四个目标》（日语：名探偵コナン 14番目の標的ターゲット，英语：Detective Conan: The Fourteenth Target），是日本漫画家青山刚昌漫画系列《名侦探柯南》的第2部剧场版，片长99分钟。1998年4月18日在日本上映，在日本有18.5亿日圆的票房收益。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E7%AC%AC14%E8%99%9F%E7%8D%B5%E7%89%A9',
+    img: '/conan-movie/img/Conan2.jpg'
+  },
+  {
+    id: 10159,
+    category: 'OVA',
+    date: '1999-04-17',
+    title: '名侦探柯南：世纪末的魔术师',
+    desc: '《名侦探柯南：世纪末的魔术师》（日语：名探偵コナン 世紀末の魔術師，英语：Detective Conan: The Last Wizard of The Century，俄文：Детектив Конан: Волшебник Конца Века）），是日本漫画家青山刚昌漫画系列《名侦探柯南》的第3部剧场版，片长99分钟。1999年4月17日在日本上映，在日本有14.5亿日圆的票房收益。另外，此作也是历代剧场版中第一部黑白漫画化的作品。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E4%BE%A6%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E4%B8%96%E7%BA%AA%E6%9C%AB%E7%9A%84%E9%AD%94%E6%9C%AF%E5%B8%88',
+    img: '/conan-movie/img/Conan3.jpg'
+  },
+  {
+    id: 10160,
+    category: 'OVA',
+    date: '2000-04-22',
+    title: '名侦探柯南：瞳孔中的暗杀者',
+    desc: '《名侦探柯南：瞳孔中的暗杀者》（日语：名探偵コナン 瞳の中の暗殺者，英语：Detective Conan: Captured In Her Eyes），是日本漫画家青山刚昌漫画系列《名侦探柯南》的第4部剧场版，片长100分钟。2000年4月22日在日本上映，在日本有25亿日圆的票房收益。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E7%9E%B3%E5%AD%94%E4%B8%AD%E7%9A%84%E6%9A%97%E6%AE%BA%E8%80%85',
+    img: '/conan-movie/img/Conan4.jpg'
+  },
+  {
+    id: 10161,
+    category: 'OVA',
+    date: '2001-04-21',
+    title: '名侦探柯南：通往天国的倒计时',
+    desc: '《名侦探柯南：通往天国的倒计时》（日语：名探偵コナン 天国へのカウントダウン，英语：Detective Conan: Count Down to Heaven），是日本漫画家青山刚昌漫画系列《名侦探柯南》的第5部剧场版，以及进入21世纪后的首部剧场版。于2001年4月21日在日本上映，在日本有29亿日圆的票房收益。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E5%BE%80%E5%A4%A9%E5%9C%8B%E7%9A%84%E5%80%92%E6%95%B8%E8%A8%88%E6%99%82',
+    img: '/conan-movie/img/Conan5.jpg'
+  },
+  {
+    id: 10162,
+    category: 'OVA',
+    date: '2002-04-20',
+    title: '名侦探柯南：贝克街的亡灵',
+    desc: '《名侦探柯南：贝克街的亡灵》（日语：名探偵コナン　ベイカー街ストリートの亡霊，英语：Detective Conan: The Phantom of Baker Street），是日本漫画家青山刚昌漫画系列《名侦探柯南》的第6部剧场版，片长107分钟。2002年4月20日在日本上映，在日本有34亿日圆的票房收益 。该片的片尾字幕背景是在英国伦敦拍摄的。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E8%B2%9D%E5%85%8B%E8%A1%97%E7%9A%84%E4%BA%A1%E9%9D%88',
+    img: '/conan-movie/img/Conan6.jpg'
+  },
+  {
+    id: 10163,
+    category: 'OVA',
+    date: '2003-04-19',
+    title: '名侦探柯南：迷宫的十字路口',
+    desc: '《名侦探柯南：迷宫的十字路口》（日语：名探偵コナン 迷宮の十字路クロスロード，英语：Detective Conan: Crossroad in the Ancient Capital），是日本漫画家青山刚昌漫画系列《名侦探柯南》的第7部剧场版，片长108分钟。2003年4月19日在日本上映、2003年8月2日在台湾上映，在日本有32亿日圆的票房收益。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E8%BF%B7%E5%AE%AE%E7%9A%84%E5%8D%81%E5%AD%97%E8%B7%AF',
+    img: '/conan-movie/img/Conan7.jpg'
+  },
+  {
+    id: 10164,
+    category: 'OVA',
+    date: '2004-04-17',
+    title: '名侦探柯南：银翼的魔术师',
+    desc: '《名侦探柯南：银翼的魔术师》（日语：名探偵コナン 銀翼の奇術師マジシャン，英语：Detective Conan: Magician of the Silver Sky），是日本漫画家青山刚昌漫画系列《名侦探柯南》的第8部剧场版，片长108分钟。2004年4月17日在日本上映，在日本有28亿日圆的票房收益。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E9%8A%80%E7%BF%BC%E7%9A%84%E5%A5%87%E8%A1%93%E5%B8%AB',
+    img: '/conan-movie/img/Conan8.jpg'
+  },
+  {
+    id: 10165,
+    category: 'OVA',
+    date: '2005-04-09',
+    title: '名侦探柯南：水平线上的阴谋',
+    desc: '《名侦探柯南：水平线上的阴谋》（日语：名探偵コナン 水平線上の陰謀ストラテジー，英语：Detective Conan: Strategy above the Depths），是日本漫画家青山刚昌漫画系列《名侦探柯南》的第9部剧场版，片长108分钟。2005年4月9日在日本上映、2005年7月29日在台湾上映、2007年5月24日在香港上映，在日本有21.5亿日圆的票房收益。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E6%B0%B4%E5%B9%B3%E7%B7%9A%E4%B8%8A%E7%9A%84%E9%99%B0%E8%AC%80',
+    img: '/conan-movie/img/Conan9.jpg'
+  },
+  {
+    id: 10166,
+    category: 'OVA',
+    date: '2006-04-15',
+    title: '名侦探柯南：侦探们的镇魂歌',
+    desc: '《名侦探柯南：侦探们的镇魂歌》（日语：名探偵コナン 探偵たちの鎮魂歌レクイエム，英语：Detective Conan: The Private Eyes Requiem），是日本漫画家青山刚昌漫画系列《名侦探柯南》的第10部剧场版，片长111分钟。2006年4月15日在日本上映，在日本有30.3亿日圆的票房收益。总观众人数是250万人。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E5%81%B5%E6%8E%A2%E5%80%91%E7%9A%84%E9%8E%AE%E9%AD%82%E6%AD%8C',
+    img: '/conan-movie/img/Conan10.jpg'
+  },
+  {
+    id: 10167,
+    category: 'OVA',
+    date: '2007-04-21',
+    title: '名侦探柯南：绀碧之棺',
+    desc: '《名侦探柯南：绀碧之棺》（日语：名探偵コナン 紺碧の棺ジョリー・ロジャー，英语：Detective Conan: Jolly Roger in the Deep Azure），是日本漫画家青山刚昌漫画系列《名侦探柯南》的第11部剧场版，片长107分钟。2007年4月21日在日本上映、2007年7月20日在台湾上映、2007年10月18日在香港上映，在日本有25.3亿日圆的票房收益。该片的片尾字幕背景是在巴哈马拍摄的。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E7%B4%BA%E7%A2%A7%E4%B9%8B%E6%A3%BA',
+    img: '/conan-movie/img/Conan11.jpg'
+  },
+  {
+    id: 10168,
+    category: 'OVA',
+    date: '2008-04-19',
+    title: '名侦探柯南：战栗的乐谱',
+    desc: '《名侦探柯南：战栗的乐谱》（日语：名探偵コナン 戦慄の楽譜フルスコア，英语：Detective Conan:Full Score of Fear），是日本漫画家青山刚昌漫画系列《名侦探柯南》的第12部剧场版，片长115分钟。2008年4月19日在日本上映、2008年7月11日在台湾上映、2010年2月25日在香港上映，在日本有24.2亿日圆的票房收益。日语“战栗”和“旋律”同音（せんりつ）。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E6%88%B0%E6%85%84%E7%9A%84%E6%A8%82%E8%AD%9C',
+    img: '/conan-movie/img/Conan12.jpg'
+  },
+  {
+    id: 10169,
+    category: 'OVA',
+    date: '2009-04-18',
+    title: '名侦探柯南：漆黑的追踪者',
+    desc: '《名侦探柯南：漆黑的追踪者》（日语：名探偵コナン 漆黒の追跡者チェイサー，英语：Detective Conan:The Raven Chaser），是日本漫画家青山刚昌漫画系列《名侦探柯南》的第13部剧场版。2009年4月18日在日本上映、2009年7月10日在台湾上映、2010年1月14日在中国大陆上映，在日本有34.9亿日圆的票房收益。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E6%BC%86%E9%BB%91%E7%9A%84%E8%BF%BD%E8%B7%A1%E8%80%85',
+    img: '/conan-movie/img/Conan13.jpg'
+  },
+  {
+    id: 10170,
+    category: 'OVA',
+    date: '2009-03-27',
+    title: '鲁邦三世VS名侦探柯南',
+    desc: '《鲁邦三世VS名侦探柯南》（日语：ルパン三世VS名探偵コナン）是读卖电视台电视动画《鲁邦三世》与日本电视台电视动画《名侦探柯南》共同制作的一部动画特别篇，庆祝日本电视台55周年台庆与读卖电视台50周年台庆。2009年2月24日在东京都举办宣传记者会，由日本电视台播报员宫崎宣子主持记者会。2009年3月27日21:00～23:09（日本时间）在日本电视网协议会（NNS）电影节目《周五马路秀》首播，2009年5月在CS日本的通讯卫星（CS）电视频道日视Plus重播。2009年7月24日，株式会社VAP发行DVD与蓝光光碟版。',
+    link: 'https://zh.wikipedia.org/wiki/%E9%B2%81%E9%82%A6%E4%B8%89%E4%B8%96VS%E5%90%8D%E4%BE%A6%E6%8E%A2%E6%9F%AF%E5%8D%97',
+    img: '/conan-movie/img/ルパン三世VS名探偵コナン.jpg'
+  },
+  {
+    id: 10171,
+    category: 'OVA',
+    date: '2010-04-17',
+    title: '名侦探柯南：天空的遇难船',
+    desc: '《名侦探柯南：天空的遇难船》（日语：名探偵コナン 天空の難破船ロスト・シップ，英语：Detective Conan: The Lost ship in the Sky），是日本漫画家青山刚昌漫画系列《名侦探柯南》的第14部剧场版，于2010年4月17日在日本上映、2010年7月9日在台湾上映，在日本有31亿日圆的票房收益，台湾的票房则为新台币1910万元。本作荣获第34届日本奥斯卡的日本电影金像奖最佳动画片奖提名。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E5%A4%A9%E7%A9%BA%E7%9A%84%E5%8A%AB%E9%9B%A3%E8%88%B9',
+    img: '/conan-movie/img/Conan14.jpg'
+  },
+  {
+    id: 10172,
+    category: 'OVA',
+    date: '2011-04-16',
+    title: '名侦探柯南：沉默的15分钟',
+    desc: '《名侦探柯南：沉默的15分钟》（日语：名探偵コナン 沈黙の15分クォーター，英语：Detective Conan: Quarter of Silence），是日本漫画家青山刚昌漫画系列《名侦探柯南》的第15部剧场版，片长109分钟。2011年4月16日在日本上映',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E4%BE%A6%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E6%B2%89%E9%BB%98%E7%9A%8415%E5%88%86%E9%92%9F',
+    img: '/conan-movie/img/Conan15.jpg'
+  },
+  {
+    id: 10173,
+    category: 'OVA',
+    date: '2012-04-14',
+    title: '名侦探柯南：第11名前锋',
+    desc: '《名侦探柯南：第11名前锋》（日语：名探偵コナン 11人目のストライカー，英语：Detective Conan: The Eleventh Striker），是日本漫画家青山刚昌漫画系列《名侦探柯南》的第16部剧场版，2012年4月14日在日本上映。第十一位前锋日本区在8月3日正式全面下档。最终票房结算为32.7亿日元。位居历年剧场版第三名，也是柯南连续四年突破30亿大关。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E4%BE%A6%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E7%AC%AC11%E4%BD%8D%E5%89%8D%E9%94%8B',
+    img: '/conan-movie/img/Conan16.jpg'
+  },
+  {
+    id: 10174,
+    category: 'OVA',
+    date: '2013-04-20',
+    title: '名侦探柯南：远海的侦探',
+    desc: '《名侦探柯南：远海的侦探》（日语：名探偵コナン 絶海の探偵プライベート・アイ，英语：Detective Conan: Private Eye in the Distant Sea），是日本漫画家青山刚昌漫画系列《名侦探柯南》的第17部剧场版，2013年4月20日在日本上映。截至6月9日，票房在第八周的收入为35亿940万6,150日圆，创下历届柯南剧场版的新高纪录。《远海的侦探》日本区的票房结算为36.3亿日元。也是柯南连续五年突破30亿大关。并发表《鲁邦三世VS名侦探柯南 THE MOVIE》将于同年12月上映的情报。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E7%B5%95%E6%B5%B7%E7%9A%84%E5%81%B5%E6%8E%A2',
+    img: '/conan-movie/img/Conan17.jpg'
+  },
+  {
+    id: 10175,
+    category: 'OVA',
+    date: '2013-12-07',
+    title: '鲁邦三世VS名侦探柯南 THE MOVIE',
+    desc: '《鲁邦三世VS名侦探柯南 THE MOVIE》（日语：ルパン三世VS名探偵コナン THE MOVIE），是日本电视台60周年台庆与读卖电视台55周年台庆的纪念企划、TMS Entertainment动画制作50周年、以及鲁邦三世连载45周年和名侦探柯南连载20周年而制作的动画电影，于2013年12月7日在日本上映，是鲁邦三世和名侦探柯南第二次合作。截至2014年1月7日，日本票房收入达到36亿3650万850日元，超越《名侦探柯南：绝海的侦探》的36.3亿日元总票房。',
+    link: 'https://zh.wikipedia.org/wiki/%E9%B2%81%E9%82%A6%E4%B8%89%E4%B8%96VS%E5%90%8D%E4%BE%A6%E6%8E%A2%E6%9F%AF%E5%8D%97_THE_MOVIE',
+    img: '/conan-movie/img/Lupin_III_VS_Detective_Conan_THE_MOVIE.jpg'
+  },
+  {
+    id: 10176,
+    category: 'OVA',
+    date: '2014-04-19',
+    title: '名侦探柯南：异次元的狙击手',
+    desc: '《名侦探柯南：异次元的狙击手》（日语：名探偵コナン 異次元の狙撃手スナイパー，英语：Detective Conan: Dimensional Sniper），是改编自日本漫画家青山刚昌漫画系列《名侦探柯南》的第18部剧场版，也是《名侦探柯南》漫画20周年纪念作品，2014年4月19日在日本上映。截至5月18日，票房在第五周的收入为36亿6591万2100日元，创下历届柯南剧场版的新高纪录。截至6月10日，票房收入突破40亿日元，成为柯南第一部票房突破40亿日元的剧场版。《异次元的狙击手》日本区的票房结算为41.1亿日元。超越上一部剧场版《绝海的侦探》的36.3亿日圆，也是柯南剧场版连续六年突破30亿大关。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E7%95%B0%E6%AC%A1%E5%85%83%E7%9A%84%E7%8B%99%E6%93%8A%E6%89%8B',
+    img: '/conan-movie/img/Conan18.jpg'
+  },
+  {
+    id: 10177,
+    category: 'OVA',
+    date: '2014-12-26',
+    title: '名侦探柯南 江户川柯南失踪事件 ～史上最糟糕的两天～',
+    desc: '《名侦探柯南 江户川柯南失踪事件 ～史上最糟糕的两天～》（日语：名探偵コナン 江戸川コナン失踪事件 〜史上最悪の2日間〜），为2014年12月26日播出的电视动画《名侦探柯南》特别节目。本作的DVD将随单行本第86卷初回限定版附送。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E4%BE%A6%E6%8E%A2%E6%9F%AF%E5%8D%97_%E6%B1%9F%E6%88%B7%E5%B7%9D%E6%9F%AF%E5%8D%97%E5%A4%B1%E8%B8%AA%E4%BA%8B%E4%BB%B6_%EF%BD%9E%E5%8F%B2%E4%B8%8A%E6%9C%80%E7%B3%9F%E7%B3%95%E7%9A%84%E4%B8%A4%E5%A4%A9%EF%BD%9E',
+    img: '/conan-movie/img/江户川柯南失踪事件_海报.jpg'
+  },
+  {
+    id: 10178,
+    category: 'OVA',
+    date: '2015-04-18',
+    title: '名侦探柯南：业火的向日葵',
+    desc: '《名侦探柯南：业火的向日葵》（日语：名探偵コナン 業火の向日葵，英语：Detective Conan: Sunflowers of Inferno），是改编自日本漫画家青山刚昌所著漫画《名侦探柯南》的第19部剧场版。《周刊少年Sunday》2015年1号公布，于2015年4月18日在日本上映。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E6%A5%AD%E7%81%AB%E7%9A%84%E5%90%91%E6%97%A5%E8%91%B5',
+    img: '/conan-movie/img/Conan19.jpg'
+  },
+  {
+    id: 10179,
+    category: 'OVA',
+    date: '2016-04-16',
+    title: '名侦探柯南：纯黑的恶梦',
+    desc: '《名侦探柯南：纯黑的恶梦》（日语：名探偵コナン 純黒の悪夢ナイトメア，英语：Detective Conan: The Darkest Nightmare），是改编自日本漫画家青山刚昌漫画系列《名侦探柯南》的第20部剧场版，此电影作品于2016年4月16日在日本上映。静野孔文担任电影导演、日本脚本家樱井武晴担任编剧撰写。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E7%B4%94%E9%BB%91%E7%9A%84%E6%83%A1%E5%A4%A2',
+    img: '/conan-movie/img/Conan20.jpg'
+  },
+  {
+    id: 10180,
+    category: 'OVA',
+    date: '2016-12-09',
+    title: '名侦探柯南 Episode"ONE" 变小的名侦探',
+    desc: '《名侦探柯南 Episode“ONE” 变小的名侦探》（日语：名探偵コナン エピソード“ONE” 小さくなった名探偵）是电视动画《名侦探柯南》的特别节目，于2016年12月9日播出。宣传语为“那日那时，在各个地方到底发生了什么！？”（日语：あの日、あの時、それぞれの場所で一体何があったのか!?）',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_Episode%22ONE%22_%E8%AE%8A%E5%B0%8F%E7%9A%84%E5%90%8D%E5%81%B5%E6%8E%A2',
+    img: '/conan-movie/img/Detective_Conan_Episode_One.png'
+  },
+  {
+    id: 10181,
+    category: 'OVA',
+    date: '2017-04-15',
+    title: '名侦探柯南：唐红的恋歌',
+    desc: '《名侦探柯南：唐红的恋歌》（日语：名探偵コナン から紅の恋歌ラブレター，英语：Detective Conan: The Crimson Love Letter），是改编自日本漫画家青山刚昌漫画系列《名侦探柯南》的第21部剧场版，2017年于日本上映。本作由静野孔文执导，推理作家大仓崇裕编剧。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E5%94%90%E7%B4%85%E7%9A%84%E6%88%80%E6%AD%8C',
+    img: '/conan-movie/img/Conan21.jpg'
+  },
+  {
+    id: 10182,
+    category: 'OVA',
+    date: '2018-04-13',
+    title: '名侦探柯南：零的执行人',
+    desc: '《名侦探柯南：零的执行人》（日语：名探偵コナン ゼロの執行人しっこうにん，英语：Detective Conan: Zero the Enforcer），是改编自日本漫画家青山刚昌漫画系列《名侦探柯南》的第22部剧场版，2018年4月13日在日本上映，该电影是名侦探柯南首部日本加海外票房突破100亿票房的剧场版系列。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E9%9B%B6%E7%9A%84%E5%9F%B7%E8%A1%8C%E4%BA%BA',
+    img: '/conan-movie/img/Conan22.jpg'
+  },
+  {
+    id: 10183,
+    category: 'OVA',
+    date: '2019-04-12',
+    title: '名侦探柯南：绀青之拳',
+    desc: '《名侦探柯南：绀青之拳》（日语：名探偵コナン 紺青の拳フィスト，英语：Detective Conan:The Fist of Blue Sapphire），是改编自日本漫画家青山刚昌漫画系列《名侦探柯南》的第23部剧场版，2019年4月12日在日本上映。由永冈智佳执导、大仓崇裕编剧。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E7%B4%BA%E9%9D%92%E4%B9%8B%E6%8B%B3',
+    img: '/conan-movie/img/Conan23.jpg'
+  },
+  {
+    id: 10184,
+    category: 'OVA',
+    date: '2020-11-20',
+    title: '名侦探柯南：红之校外旅行',
+    desc: '《名侦探柯南：红色的修学旅行》（日语：名探偵コナン 紅の修学旅行）是日本漫画家青山刚昌所作漫画《名侦探柯南》的一个篇章，该篇章是原作漫画的第290个案件，2020年11月20日在台湾上映。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E7%B4%85%E4%B9%8B%E6%A0%A1%E5%A4%96%E6%97%85%E8%A1%8C',
+    img: '/conan-movie/img/Kiyomizu-dera,_Kyoto,_November_2016_-01.jpg'
+  },
+  {
+    id: 10185,
+    category: 'OVA',
+    date: '2021-02-11',
+    title: '名侦探柯南：绯色的不在场证明',
+    desc: '《名侦探柯南：绯色的不在场证明》（日语：名探偵コナン 緋色の不在証明），是改编自日本漫画家青山刚昌创作的漫画系列《名侦探柯南》的电视动画总集篇。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E7%B7%8B%E8%89%B2%E7%9A%84%E4%B8%8D%E5%9C%A8%E5%A0%B4%E8%AD%89%E6%98%8E',
+    img: '/conan-movie/img/Detective_Conan_The_Scarlet_Alibi_poster.jpg'
+  },
+  {
+    id: 10186,
+    category: 'OVA',
+    date: '2021-04-16',
+    title: '名侦探柯南：绯色的子弹',
+    desc: '《名侦探柯南：绯色的子弹》（日语：名探偵コナン 緋色の弾丸だんがん，英语：Detective Conan: The Scarlet Bullet，香港和台湾译作“名侦探柯南：绯色的弹丸”），是改编自日本漫画家青山刚昌漫画系列《名侦探柯南》的第24部剧场版，由永冈智佳执导、樱井武晴编剧。本片原定档于2020年4月17日，因2019冠状病毒病疫情的影响而延至2021年4月16日上映。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E7%B7%8B%E8%89%B2%E7%9A%84%E5%BD%88%E4%B8%B8',
+    img: '/conan-movie/img/Conan24.jpg'
+  },
+  {
+    id: 10187,
+    category: 'OVA',
+    date: '2022-04-15',
+    title: '名侦探柯南：总局刑警恋爱物语 ～结婚前夜～',
+    desc: '《名侦探柯南：总局刑警恋爱物语～结婚前夜～》（日语：名探偵コナン 本庁の刑事恋物語〜結婚前夜〜），是改编自日本漫画家青山刚昌创作的漫画系列《名侦探柯南》的电视动画总集篇。于2022年4月15日“周五Load SHOW”时段播出的特别节目。对过去电视播放的《震动警视厅的1200万人质》、《总局刑警恋爱物语》系列进行数字修复播放。剧中配音员皆为重新录制（部分例外）。片尾增加一个新场景，为《万圣节的新娘》的前传。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E8%90%AC%E8%81%96%E7%AF%80%E7%9A%84%E6%96%B0%E5%A8%98#%E7%B8%BD%E9%9B%86%E7%AF%87',
+    // img: '/conan-movie/img/'
+  },
+  {
+    id: 10188,
+    category: 'OVA',
+    date: '2022-04-15',
+    title: '名侦探柯南：万圣节的新娘',
+    desc: '《名侦探柯南：万圣节的新娘》（日语：名探偵コナン ハロウィンの花嫁はなよめ，英语：Detective Conan: The Bride of Halloween），是于2022年4月15日上映的日本动画电影，是改编自日本漫画家青山刚昌漫画系列《名侦探柯南》的第25部剧场版，由满仲劝执导，大仓崇裕编剧。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E8%90%AC%E8%81%96%E7%AF%80%E7%9A%84%E6%96%B0%E5%A8%98',
+    img: '/conan-movie/img/Conan25.jpg'
+  },
+  {
+    id: 10189,
+    category: 'OVA',
+    date: '2023-01-06',
+    title: '名侦探柯南：灰原哀物语～黑铁的神秘列车～',
+    desc: '《名侦探柯南：灰原哀物语 ～黑铁的神秘列车～》（名探偵コナン 灰原哀物語〜黒鉄のミステリートレイン〜），是《名侦探柯南》电视动画总集篇，故事以单元《漆黑的特快列车》为中心，于2023年1月6日在日本上映。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E9%BB%91%E9%90%B5%E7%9A%84%E9%AD%9A%E5%BD%B1#%E7%B8%BD%E9%9B%86%E7%AF%87',
+    // img: '/conan-movie/img/'
+  },
+  {
+    id: 10190,
+    category: 'OVA',
+    date: '2023-04-14',
+    title: '名侦探柯南：黑铁的鱼影',
+    desc: '《名侦探柯南：黑铁的鱼影》（日语：名探偵コナン 黒鉄の魚影サブマリン，英语：Detective Conan: Black Iron Submarine），于2023年4月14日上映的日本动画电影，改编自日本漫画家青山刚昌漫画系列《名侦探柯南》的第26部剧场版，由立川让执导，樱井武晴编剧，该电影是名侦探柯南剧场版系列首部在日本突破100亿日圆票房的剧场版，同时也是该系列历史最高票房，直到被其续作《百万美元的五棱星》超越。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A%E9%BB%91%E9%90%B5%E7%9A%84%E9%AD%9A%E5%BD%B1',
+    img: '/conan-movie/img/Conan26.jpg'
+  },
+  {
+    id: 10191,
+    category: 'OVA',
+    date: '2024-01-05',
+    title: '名侦探柯南 vs. 怪盗基德',
+    desc: '《名侦探柯南 vs. 怪盗基德》（名探偵コナン vs. 怪盗キッド），是《名侦探柯南》电视动画总集篇，故事改编单元《柯南VS怪盗基德》、《工藤新一VS怪盗基德》、《怪盗基德令人惊异的空中漫步》等剧情，于2024年1月5日在日本上映。',
+    link: 'https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%EF%BC%9A100%E8%90%AC%E7%BE%8E%E5%85%83%E7%9A%84%E4%BA%94%E7%A8%9C%E6%98%9F#%E7%B8%BD%E9%9B%86%E7%AF%87',
+    // img: '/conan-movie/img/'
+  },
+  {
+    id: 10192,
+    category: 'OVA',
+    date: '2024-04-12',
+    title: '名侦探柯南：百万美元的五棱星',
+    desc: '《名侦探柯南：百万美元的五棱星》（日语：名探偵コナン 100万ドルの五稜星みちしるべ，英语：Detective Conan: The Million-dollar Pentagram），是2024年4月12日上映的日本动画电影，改编自日本漫画家青山刚昌漫画系列《名侦探柯南》的第27部剧场版，由永冈智佳执导，大仓崇裕编剧。',
+    link: 'https://zh.wikipedia.org/wiki/Portal%EF%BC%9A%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97/%E5%8A%87%E5%A0%B4%E7%89%88 ',
+    img: '/conan-movie/img/Conan27.jpg'
+  },
+  {
+    id: 10193,
+    category: 'OVA',
     date: '2025-05-22',
     title: `名侦探柯南：独眼的残像 2025剧场版`,
     desc: `《名侦探柯南：独眼的残像》（日语：名探偵コナン 隻眼の残像フラッシュバック，英语：Detective Conan: One-eyed Flashback），是2025年4月18日上映的日本动画电影，改编自日本漫画家青山刚昌漫画系列《名侦探柯南》的第28部剧场版，由重原克也执导，樱井武晴编剧。该电影是名侦探柯南剧场版系列第三部在日本突破100亿日圆票房的剧场版，同时该系列也成为日本影史首个连续三部作品百亿的系列电影。`,
     link: '/conan-movie/2025/Detective-Conan-One-eyed-Flashback.html',
-    img: '/conan-movie/img/2025homelogo.png'
+    img: '/conan-movie/img/Conan28.jpg'
   }
 ];
