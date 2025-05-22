@@ -1402,5 +1402,14 @@ const newsData = [
     desc: `以新名任太朗、新名香保里所著小说为原作的人气推理作品《侦探左文字》的主角，真人剧中由剑崎修饰演。`,
     link: 'https://www.conanpedia.com/%E6%9D%BE%E7%94%B0%E5%B7%A6%E6%96%87%E5%AD%97',
     img: 'https://www.conanpedia.com/images/f/fe/CHARACTER_LIST_%E6%9D%BE%E7%94%B0%E5%B7%A6%E6%96%87%E5%AD%97.png'
+  },
+  {
+    id: 10157,
+    category: 'Wiki',
+    date: '2025-05-22',
+    title: `名侦探柯南：独眼的残像 2025剧场版`,
+    desc: `《名侦探柯南：独眼的残像》（日语：名探偵コナン 隻眼の残像フラッシュバック，英语：Detective Conan: One-eyed Flashback），是2025年4月18日上映的日本动画电影，改编自日本漫画家青山刚昌漫画系列《名侦探柯南》的第28部剧场版，由重原克也执导，樱井武晴编剧。该电影是名侦探柯南剧场版系列第三部在日本突破100亿日圆票房的剧场版，同时该系列也成为日本影史首个连续三部作品百亿的系列电影。`,
+    link: '/MPD/conan-movie/2025/Detective-Conan-One-eyed-Flashback.html',
+    img: '/MPD/conan-movie/img/2025homelogo.png'
   }
 ];
